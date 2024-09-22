@@ -5,10 +5,29 @@ body {
     height: 100vh;
     margin: 0;
     background-color: #000;
+    color: white;
 }
 
 canvas {
     background-color: #000;
     display: block;
     border: 2px solid white; /* Añadir borde blanco */
+}
+
+#leaderboard {
+    margin-left: 20px;
+    color: white;
+}
+
+#leaderboard h2 {
+    text-align: center;
+}
+
+#leaderboardList {
+    list-style: none;
+    padding: 0;
+}
+
+#leaderboardList li {
+    font-size: 18px;
 }
